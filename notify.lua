@@ -8,7 +8,7 @@ assert(nil ~= disp)
 local conn = l2dbus.Connection.openStandard(disp, l2dbus.Dbus.BUS_SESSION)
 assert(nil ~= conn)
 
-local icon_file = "/home/slopez/Projects/tg-cli/ic_launcher.png"
+local icon_file = ""
 
 our_id = 0
 now = os.time()
